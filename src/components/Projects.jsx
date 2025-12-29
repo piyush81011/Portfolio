@@ -13,7 +13,7 @@ function Projects() {
       title: "Portfolio", 
       desc: "A personal portfolio website showcasing my skills, projects, and experience as a developer.", 
       tech: "React, Tailwind CSS, Vite",
-      link: null
+      link: "https://portfolio-lemon-psi-24.vercel.app/"
     },
   ];
 
