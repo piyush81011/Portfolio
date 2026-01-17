@@ -3,15 +3,24 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 function Projects() {
   const items = [
-    { 
-      title: "Medilocator", 
-      desc: "A platform to locate nearby medical facilities, hospitals, and healthcare services with real-time availability.", 
+    {
+      title: "LevelUp – Learning Management System",
+      desc:
+        "A MERN-based LMS for course creation, management, and enrollment. Features real-time chat, file uploads, analytics, and a responsive UI with secure authentication and role-based access. Deployed on the cloud for scalable and reliable access.",
+      tech: "MERN Stack, Socket.io",
+      link: "https://level-up-sand.vercel.app/"
+    },
+    {
+      title: "Medilocator",
+      desc:
+        "A web app to find nearby hospitals and healthcare services with real-time availability. Users can search, view details, and access maps for medical facilities. Designed for accessibility and quick emergency access.",
       tech: "MERN Stack",
       link: "https://www.medilocator.live"
     },
-    { 
-      title: "Portfolio", 
-      desc: "A personal portfolio website showcasing my skills, projects, and experience as a developer.", 
+    {
+      title: "Portfolio",
+      desc:
+        "A personal portfolio site to showcase my skills, projects, and experience. Features interactive sections, smooth navigation, and a modern responsive design for clients and employers.",
       tech: "React, Tailwind CSS, Vite",
       link: "https://portfolio-lemon-psi-24.vercel.app/"
     },
